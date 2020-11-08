@@ -34,6 +34,11 @@ export default class CreateTaskForm extends React.Component {
   onSubmit(e) {
     e.preventDefault();
     const { description, priority } = this.state;
+
+    if (!description) {
+      return;
+    }
+
     this.props.createTask({ description, priority });
     this.setState({ description: '' });
   }
