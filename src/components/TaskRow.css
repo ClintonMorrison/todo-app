@@ -1,0 +1,22 @@
+.task-row .column-description {
+  width: 100%;
+}
+
+.task-row.completed {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.task-row .delete-task {
+  background-color: #a00;
+  color: white;
+  padding: 1rem 1rem;
+  line-height: 1;
+  height: 3rem;
+  letter-spacing: normal;
+}
+
+.task-row .delete-task:hover,
+.task-row .delete-task:focus {
+  background-color: #f00;
+}
