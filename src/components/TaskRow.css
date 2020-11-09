@@ -4,7 +4,6 @@
 
 .task-row.completed {
   text-decoration: line-through;
-  opacity: 50%;
 }
 
 .task-row .delete-task {
